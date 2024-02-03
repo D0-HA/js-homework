@@ -1,17 +1,41 @@
-# 네이버 로그인 페이지 구현
+## 네이버 로그인 페이지 구현
 
----
+### 🎯 과제 목표
 
-로그인과 비밀번호를 정확히 입력했을 때 welcome 페이지로 넘어갈 수 있도록 코드 로직을 작성합니다.
+재사용 가능한 함수를 분리하고 함수를 중심으로 설계하는 방법에 대해 학습합니다.
 
+### 📌 주요 기능
 
----
-- [x] 재사용 가능한 함수를 분리하고 함수를 중심으로 설계하는 방법에 대해 학습합니다.
+<p>
+<img src="./assets/input-id.PNG" width="350" height="300"/>
+<img src="./assets/input-pw.PNG" width="350" height="300"/>
+<img src="./assets/input-correct.PNG" width="350" height="300"/>
+<img src="./assets/fail.PNG" width="350" height="300"/>
+<img src="./assets/pass.PNG" width="350" height="300"/>
+</p>
 
+- <b>email 정규표현식을 사용한 validation</b>
 
+  - 입력받은 ID가 조건에 맞는 형식인지 확인
+  - 일치하면 Pass, 불일치하면 에러 메세지 출력
+    <br>
 
+- <b>pw 정규표현식을 사용한 validation</b>
 
+  - 입력받은 PW가 조건에 맞는 형식인지 확인
+  - 일치하면 Pass, 불일치하면 에러 메세지 출력
+    <br>
 
+- <b>상태 변수 관리</b>
 
+  - ?
+    <br>
 
+- <b>로그인 버튼을 클릭시 조건처리</b>
+  - 입력받은 정보와 유저 정보 비교
+  - 일치하면 welcome 페이지로 이동
+  - 불일치하면 로그인 실패 메세지 출력
 
+### 🛠️ 개선 사항
+
+1. 상태 변수 관리의 개념과 어디에 어떻게 써야하는지 모르겠음
