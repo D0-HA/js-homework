@@ -4,14 +4,18 @@
 
 재사용 가능한 함수를 분리하고 함수를 중심으로 설계하는 방법에 대해 학습합니다.
 
+---
+
 ### 📌 주요 기능
 
+---
+
 <p>
-<img src="./assets/input-id.PNG" width="350" height="300"/>
-<img src="./assets/input-pw.PNG" width="350" height="300"/>
-<img src="./assets/input-correct.PNG" width="350" height="300"/>
-<img src="./assets/fail.PNG" width="350" height="300"/>
-<img src="./assets/pass.PNG" width="350" height="300"/>
+<img src="./assets/input-id.PNG" width="400" height="300"/>
+<img src="./assets/input-pw.PNG" width="400" height="300"/>
+<img src="./assets/input-correct.PNG" width="400" height="300"/>
+<img src="./assets/fail.PNG" width="400" height="300"/>
+<img src="./assets/pass.PNG" width="400" height="300"/>
 </p>
 
 - <b>email 정규표현식을 사용한 validation</b>
@@ -37,5 +41,7 @@
   - 불일치하면 로그인 실패 메세지 출력
 
 ### 🛠️ 개선 사항
+
+---
 
 1. 상태 변수 관리의 개념과 어디에 어떻게 써야하는지 모르겠음
